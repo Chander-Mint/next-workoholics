@@ -1,0 +1,23 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.service {
+  background-image: url('../src/assets/images/services-section.webp');
+}
+
+.booking {
+  background-image: url('../src/assets/images/booking-section.webp');
+  position: relative;
+}
+
+.booking::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
