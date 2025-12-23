@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import Header from './Header';
+import { lazy } from 'react';
+const Header = lazy(() => import('./Header'));
 
-import banner1 from '../assets/images/banner-1.webp';
-import banner2 from '../assets/images/banner-2.webp';
-import banner3 from '../assets/images/banner-3.webp';
+import HeroImage1 from '../assets/images/heroImage1.webp';
+import HeroImage2 from '../assets/images/heroImage2.webp';
+import HeroImage3 from '../assets/images/heroImage3.webp';
 
 const Banner = ({ id }) => {
-    const backgroundImages = [banner1, banner2, banner3];
+    const backgroundImages = [HeroImage1, HeroImage2, HeroImage3];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 

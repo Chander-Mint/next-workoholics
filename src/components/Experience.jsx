@@ -28,6 +28,7 @@ const Experience = ({ id }) => {
           <div className="w-full lg:w-1/2">
             <img 
               src={ExperienceImage}
+              loading="lazy"
               alt="Coworking Space" 
               className="w-full h-auto rounded-lg shadow-lg"
             />

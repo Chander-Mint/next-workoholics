@@ -11,6 +11,7 @@ const CardSection = () => {
             <div className="h-full">
               <img 
                 src={CoWorkingImage} 
+                loading="lazy"
                 alt="Coworking Space" 
                 className="w-full h-auto md:h-[350px] object-cover rounded-lg shadow-lg"
               />

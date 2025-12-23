@@ -63,8 +63,8 @@ const FormSection = ({ id }) => {
                                     </div>
                                     <div className="ml-4">
                                         <h3 className="text-sm font-medium text-gray-500 uppercase tracking-wider mb-2">Email</h3>
-                                        <a href="mailto:info@minterminds.com" className="text-lg text-gray-800 hover:text-yellow-600 transition flex items-center">
-                                            info@minterminds.com
+                                        <a href="mailto: Goyal.sumit2001@gmail.com" className="text-lg text-gray-800 hover:text-yellow-600 transition flex items-center">
+                                             Goyal.sumit2001@gmail.com
                                         </a>
                                     </div>
                                 </div>

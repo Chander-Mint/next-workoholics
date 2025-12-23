@@ -10,7 +10,7 @@ const Header = () => {
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
     }
-    setIsMenuOpen(false); 
+    setIsMenuOpen(false);
   };
 
   return (
@@ -20,6 +20,7 @@ const Header = () => {
           <div className="flex items-center">
             <img
               src={HeaderLogo}
+              loading="lazy"
               alt="Header Logo"
               className="sm:h-12 md:h-14 lg:h-20 w-auto"
             />
